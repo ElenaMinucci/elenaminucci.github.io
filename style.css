@@ -757,19 +757,12 @@ h1, h2, h3 { line-height: 1.25; }
     justify-content: center;
   }
 
-  .sidebar-name { font-size: 0.95rem; margin-bottom: 0.1rem; }
+  .sidebar-name { font-size: 0.95rem; margin-bottom: 0.1rem; white-space: nowrap; }
 
-  /* hide location, university, tagline */
+  /* hide location, university, tagline and PhD line */
   .sidebar-location,
   .sidebar-info,
   .sidebar-tagline { display: none; }
-
-  /* show only the PhD line */
-  .sidebar-phd {
-    display: block;
-    font-size: 0.72rem;
-    margin-bottom: 0;
-  }
 
   /* Row 2: nav wraps and shrinks to always fit */
   #nav {
