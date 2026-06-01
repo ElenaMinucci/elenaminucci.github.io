@@ -757,7 +757,7 @@ h1, h2, h3 { line-height: 1.25; }
     justify-content: center;
   }
 
-  .sidebar-name { font-size: 0.95rem; margin-bottom: 0.1rem; white-space: nowrap; }
+  .sidebar-name { font-size: 1.05rem; margin-bottom: 0.1rem; white-space: nowrap; }
 
   /* hide location, university, tagline and PhD line */
   .sidebar-location,
@@ -787,7 +787,7 @@ h1, h2, h3 { line-height: 1.25; }
     padding: 0.55rem 0.5rem;
     border-left: none;
     border-bottom: 3px solid transparent;
-    font-size: clamp(0.6rem, 2vw, 0.72rem);
+    font-size: clamp(0.65rem, 2vw, 0.8rem);
     white-space: nowrap;
     text-align: center;
   }
