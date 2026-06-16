@@ -788,10 +788,9 @@ h1, h2, h3 { line-height: 1.25; }
     padding: 0.55rem 0.5rem;
     border-left: none;
     border-bottom: 3px solid transparent;
-    font-size: clamp(0.65rem, 2vw, 0.8rem);
+    font-size: clamp(0.65rem, 2vw, 0.70rem);
     white-space: nowrap;
     text-align: center;
-    font-size: 13px;
   }
 
   #nav ul li a.active {
@@ -810,6 +809,7 @@ h1, h2, h3 { line-height: 1.25; }
     padding: 0 1rem;
     border-bottom: 1px solid rgba(255,255,255,0.08);
     flex-wrap: nowrap;
+    padding: 0 1.25rem;
   }
 
   .sidebar-socials a {
