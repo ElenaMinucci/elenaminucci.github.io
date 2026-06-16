@@ -774,7 +774,7 @@ h1, h2, h3 { line-height: 1.25; }
 
   #nav ul {
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     justify-content: center;
     gap: 0;
     width: 100%;
@@ -799,6 +799,9 @@ h1, h2, h3 { line-height: 1.25; }
     background: rgba(255,255,255,0.08);
   }
 
+  #nav a[data-short] { font-size: 0; }
+  #nav a[data-short]::before { content: attr(data-short); font-size: 13px; }
+
   /* Row 1 right: social icons compact */
   .sidebar-socials {
     grid-area: socials;
@@ -806,10 +809,9 @@ h1, h2, h3 { line-height: 1.25; }
     flex-direction: row;
     align-items: center;
     gap: 0.25rem;
-    padding: 0 1rem;
+    padding: 0 1.25rem;
     border-bottom: 1px solid rgba(255,255,255,0.08);
     flex-wrap: nowrap;
-    padding: 0 1.25rem;
   }
 
   .sidebar-socials a {
