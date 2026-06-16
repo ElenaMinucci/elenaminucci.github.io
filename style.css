@@ -791,6 +791,7 @@ h1, h2, h3 { line-height: 1.25; }
     font-size: clamp(0.65rem, 2vw, 0.8rem);
     white-space: nowrap;
     text-align: center;
+    font-size: 13px;
   }
 
   #nav ul li a.active {
