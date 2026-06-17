@@ -785,10 +785,10 @@ h1, h2, h3 { line-height: 1.25; }
   }
 
   #nav ul li a {
-    padding: 0.55rem 0.5rem;
+    padding: 0.55rem 0.25rem;
     border-left: none;
     border-bottom: 3px solid transparent;
-    font-size: clamp(0.65rem, 2vw, 0.70rem);
+    font-size: clamp(0.55rem, 1.8vw, 0.70rem);
     white-space: nowrap;
     text-align: center;
   }
