@@ -281,7 +281,7 @@ h1, h2, h3 { line-height: 1.25; }
 .about-bio p:last-child { margin-bottom: 0; }
 
 #about {
-  padding: 4rem 3.5rem 2.5rem;
+  padding: 0;
 }
 
 .about-hero-img {
