@@ -288,12 +288,14 @@ h1, h2, h3 { line-height: 1.25; }
   position: relative;
   width: 100%;
   overflow: hidden;
-  max-height: 480px;
+  height: 480px;
 }
 
 .about-hero-img img {
   width: 100%;
-  height: auto;
+  height: 100%;
+  object-fit: cover;
+  object-position: left 42%;
   display: block;
 }
 
