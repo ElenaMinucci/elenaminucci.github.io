@@ -288,6 +288,7 @@ h1, h2, h3 { line-height: 1.25; }
   position: relative;
   width: 100%;
   overflow: hidden;
+  max-height: 480px;
 }
 
 .about-hero-img img {
